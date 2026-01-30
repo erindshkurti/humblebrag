@@ -1,0 +1,53 @@
+.container {
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: #f9fafb;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px dashed var(--border);
+}
+
+.heading {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: var(--foreground);
+}
+
+.text {
+    color: var(--secondary);
+    margin-bottom: 1.5rem;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.button,
+.linkButton {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.button {
+    background: var(--foreground);
+    color: var(--card-bg);
+    border: none;
+}
+
+.linkButton {
+    background: white;
+    color: var(--foreground);
+    border: 1px solid var(--border);
+}
+
+.button:hover,
+.linkButton:hover {
+    opacity: 0.8;
+}

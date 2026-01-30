@@ -1,0 +1,44 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--card-bg);
+    border-bottom: 1px solid var(--border);
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--foreground);
+}
+
+.links {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.link {
+    color: var(--secondary);
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.link:hover {
+    color: var(--foreground);
+}
+
+.button {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    background-color: var(--foreground);
+    color: var(--card-bg);
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
